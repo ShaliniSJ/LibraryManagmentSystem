@@ -1,0 +1,94 @@
+body {
+  padding: 10px 0;
+  background-image: linear-gradient(315deg, #1f2833 0%, #0b0c10 74%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  
+}
+header {
+  color:#898b8e;
+  height: 100%;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+
+}
+
+/*navbar*/
+.container-body {
+  
+  display: grid;
+  grid-template-columns: 22% auto;
+  row-gap: 20px;
+}
+
+.container-body .sidebar {
+  grid-row-start: 2;
+  grid-row-end: auto;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 20px 0 20px 20px;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.container-body .sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+.container-body .sidebar ul li {
+  padding: 10px 10px;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.container-body .sidebar ul li:hover {
+  background: #66fcf1;
+  border-radius: 8px;
+}
+
+.container-body .sidebar ul li a {
+  text-decoration: none;
+  color: #1f2833;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.container-body .sidebar ul li:hover a {
+  color: #1f2833;
+}
+
+.container-body .sidebar ul .active {
+  background: #66fcf1;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.container-body .sidebar ul .active a {
+  color: #1f2833;
+
+}
+/*heading*/
+.heading{
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
