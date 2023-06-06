@@ -142,6 +142,7 @@ header .text-content{
   display: flex;
   flex-direction: column;
 }
+
 .glass{
   display: flex;
   width:100%;
@@ -158,4 +159,9 @@ header .text-content{
   font-size: 20px;
   color:black;
   width: 34%;
+}
+.glass p{
+  /* font-size: 10px; */
+  color:black;
+  /* width: 40%; */
 }

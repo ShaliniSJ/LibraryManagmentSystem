@@ -1,6 +1,6 @@
 <template>
   <div class="bodys">
-    <header>
+    <header class="conatiners">
       <nav class="navbar">
         <div class="logo"><router-link to="/">WORDSMITH LIBRARY</router-link></div>
       </nav>
