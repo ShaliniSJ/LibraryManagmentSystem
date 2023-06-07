@@ -1,3 +1,6 @@
+# Ownership
+
+I [ShaliniSJ], am the original creator and owner of the project titled 'library-mangment-system,' hosted on GitHub, and reserve all rights and ownership for this project
 
 # Library management System :   
 
