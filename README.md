@@ -41,7 +41,7 @@ Overall, the Library Management System aims to enhance the library experience fo
 
 Frontend :
 
-![logo](https://skillicons.dev/icons?i=vue,bootstrap,css,html&theme=dark)
+![logo](https://skillicons.dev/icons?i=vue,bootstrap,css&theme=dark)
 
 Backend :
 
